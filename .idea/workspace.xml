@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1e2b1a2-84b3-4a43-81ec-ba3b5b2939e2" name="Default Changelist" comment="Update container name">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+    <list default="true" id="a1e2b1a2-84b3-4a43-81ec-ba3b5b2939e2" name="Default Changelist" comment="Simplify content">
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +69,7 @@
       <updated>1590055185108</updated>
       <workItem from="1590055186398" duration="4624000" />
       <workItem from="1590068360149" duration="249000" />
-      <workItem from="1590069798519" duration="838000" />
+      <workItem from="1590069798519" duration="895000" />
     </task>
     <task id="LOCAL-00001" summary="Add base docker configs">
       <created>1590070014922</created>
@@ -94,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590070330492</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Simplify content">
+      <created>1590070663596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590070663596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,13 +120,14 @@
     <MESSAGE value="Add base docker configs" />
     <MESSAGE value="Fix paths" />
     <MESSAGE value="Update container name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update container name" />
+    <MESSAGE value="Simplify content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplify content" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="386" y="212" key="Vcs.Push.Dialog.v2" timestamp="1590070334444">
+    <state x="386" y="212" key="Vcs.Push.Dialog.v2" timestamp="1590070664913">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="301" y="-816" key="Vcs.Push.Dialog.v2/0.23.1440.828/-214.-1057.1920.1057@-214.-1057.1920.1057" timestamp="1590070237304" />
-    <state x="386" y="212" key="Vcs.Push.Dialog.v2/0.23.1440.828/-214.-1057.1920.1057@0.23.1440.828" timestamp="1590070334444" />
+    <state x="386" y="212" key="Vcs.Push.Dialog.v2/0.23.1440.828/-214.-1057.1920.1057@0.23.1440.828" timestamp="1590070664913" />
   </component>
 </project>
