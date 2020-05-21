@@ -1,0 +1,22 @@
+version: '3.3'
+
+networks:
+  web:
+    external: true
+  internal:
+    external: false
+
+services:
+  ee-client-dashboard:
+    build: .
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.routers.ee-client-dashboard.rule=Host(`dasha-s-dr.outright.xyz`)"
+      - "traefik.http.routers.ee-client-dashboard.entrypoints=websecure"
+      - "traefik.http.routers.ee-client-dashboard.tls=true"
+      - "traefik.http.routers.ee-client-dashboard.tls.certresolver=leresolver"
+    networks:
+      - internal
+      - web
