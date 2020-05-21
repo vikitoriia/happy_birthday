@@ -20,5 +20,3 @@ services:
     networks:
       - internal
       - web
-    ports:
-      - 3333
