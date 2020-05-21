@@ -8,7 +8,7 @@ networks:
 
 services:
   dasha-s-dr:
-    image: nginx:1.12-alpine
+    build: .
     restart: always
     labels:
       - "traefik.enable=true"
@@ -20,8 +20,5 @@ services:
     networks:
       - internal
       - web
-    volumes:
-      - ./html:/usr/share/nginx/html
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf
     ports:
       - 3333
