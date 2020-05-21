@@ -7,7 +7,7 @@ networks:
     external: false
 
 services:
-  ee-client-dashboard:
+  dasha-s-dr:
     build: .
     restart: always
     labels:

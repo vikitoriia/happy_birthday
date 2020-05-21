@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1e2b1a2-84b3-4a43-81ec-ba3b5b2939e2" name="Default Changelist" comment="Add base docker configs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="a1e2b1a2-84b3-4a43-81ec-ba3b5b2939e2" name="Default Changelist" comment="Fix paths">
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <updated>1590055185108</updated>
       <workItem from="1590055186398" duration="4624000" />
       <workItem from="1590068360149" duration="249000" />
-      <workItem from="1590069798519" duration="412000" />
+      <workItem from="1590069798519" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="Add base docker configs">
       <created>1590070014922</created>
@@ -79,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590070014922</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix paths">
+      <created>1590070236219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590070236219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,12 +104,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add base docker configs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add base docker configs" />
+    <MESSAGE value="Fix paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix paths" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="-816" key="Vcs.Push.Dialog.v2" timestamp="1590070125036">
+    <state x="301" y="-816" key="Vcs.Push.Dialog.v2" timestamp="1590070237304">
       <screen x="-214" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="301" y="-816" key="Vcs.Push.Dialog.v2/0.23.1440.828/-214.-1057.1920.1057@-214.-1057.1920.1057" timestamp="1590070125036" />
+    <state x="301" y="-816" key="Vcs.Push.Dialog.v2/0.23.1440.828/-214.-1057.1920.1057@-214.-1057.1920.1057" timestamp="1590070237304" />
   </component>
 </project>
